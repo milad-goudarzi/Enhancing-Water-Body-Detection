@@ -41,19 +41,19 @@ pip install numpy pandas torch torchvision tensorflow scikit-learn matplotlib pi
 
 1. Place your dataset in the expected directory structure:
 ```
-    /kaggle/input/glacial-lake-dataset/glacial-lake-dataset/
-        ├── images/
-        └── masks/
+/kaggle/input/glacial-lake-dataset/glacial-lake-dataset/
+    ├── images/
+    └── masks/
 ```
 
 2. Update the dataset path in the script if your paths differ:
 ```
-    IMAGE_PATH = '/path/to/images'
-    MASK_PATH = '/path/to/masks'
+IMAGE_PATH = '/path/to/images'
+MASK_PATH = '/path/to/masks'
 ```
 3. Run the script:
 ```
-    python main.py
+python main.py
 ```
 4. Outputs:
     - Training logs and metrics in the console.
@@ -63,11 +63,11 @@ pip install numpy pandas torch torchvision tensorflow scikit-learn matplotlib pi
 ## Configuration
 
 Modify the following constants in the script as needed:
-
-    IMAGE_SIZE = (400, 400)     # Image and mask resize dimensions
-    IMAGE_PATH = '...'          # Path to images
-    MASK_PATH = '...'           # Path to masks
-
+```
+IMAGE_SIZE = (400, 400)     # Image and mask resize dimensions
+IMAGE_PATH = '...'          # Path to images
+MASK_PATH = '...'           # Path to masks
+```
 You may adjust epochs, batch size, and other hyperparameters directly in the script.
 
 ## Dependencies
@@ -81,8 +81,8 @@ You may adjust epochs, batch size, and other hyperparameters directly in the scr
 - Pillow
 
 ## Project Structure
-
+```
 main.py                         # Main script for loading data, training, and evaluation  
 tensorflow_training_history.csv # Saved TensorFlow training metrics  
 pytorch_training_history.csv    # Saved PyTorch training metrics  
-
+```
