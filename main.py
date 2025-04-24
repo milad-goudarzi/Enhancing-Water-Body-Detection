@@ -13,8 +13,8 @@ from torch.utils.data import Dataset, DataLoader
 import matplotlib.pyplot as plt
 
 IMAGE_SIZE = (400, 400)
-IMAGE_PATH = '/kaggle/input/glacial-lake-dataset/glacial-lake-dataset/images'
-MASK_PATH = '/kaggle/input/glacial-lake-dataset/glacial-lake-dataset/masks'
+IMAGE_PATH = '/path/to/images'
+MASK_PATH = '/path/to/masks'
 
 
 def load_image_tf(img_path, mask_path):
