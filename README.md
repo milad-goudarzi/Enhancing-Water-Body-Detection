@@ -38,7 +38,7 @@ pip install numpy pandas torch torchvision tensorflow scikit-learn matplotlib pi
 
 1. Place your dataset in the expected directory structure:
 ```
-/kaggle/input/glacial-lake-dataset/glacial-lake-dataset/
+/dataset/
     ├── images/
     └── masks/
 ```
