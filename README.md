@@ -14,9 +14,6 @@ This project implements a semantic segmentation workflow for glacial lake imager
 - [Dependencies](#dependencies)
 - [Project Structure](#project-structure)
 - [Examples](#examples)
-- [Troubleshooting](#troubleshooting)
-- [Contributors](#contributors)
-- [License](#license)
 
 ## Features
 
@@ -86,3 +83,6 @@ main.py                         # Main script for loading data, training, and ev
 tensorflow_training_history.csv # Saved TensorFlow training metrics  
 pytorch_training_history.csv    # Saved PyTorch training metrics  
 ```
+## Examples
+An example output of the code is as follows:
+![image](https://github.com/user-attachments/assets/98d6c17f-d33e-4168-8e4c-9840c7df11c7)
