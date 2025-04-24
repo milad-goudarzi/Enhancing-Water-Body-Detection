@@ -40,20 +40,21 @@ pip install numpy pandas torch torchvision tensorflow scikit-learn matplotlib pi
 ## Usage
 
 1. Place your dataset in the expected directory structure:
-
+```
     /kaggle/input/glacial-lake-dataset/glacial-lake-dataset/
         ├── images/
         └── masks/
+```
 
 2. Update the dataset path in the script if your paths differ:
-
+```
     IMAGE_PATH = '/path/to/images'
     MASK_PATH = '/path/to/masks'
-
+```
 3. Run the script:
-
+```
     python main.py
-
+```
 4. Outputs:
     - Training logs and metrics in the console.
     - CSV files: `tensorflow_training_history.csv`, `pytorch_training_history.csv`
